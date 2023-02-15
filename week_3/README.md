@@ -1,7 +1,10 @@
 # Week 3 Exercise: Typescript vs Javascript
 ## Part 1: Working in the browser
-Check out [stackblitz](https://blog.stackblitz.com/posts/vite-new-templates/)
+<span style="color:orange">SVAR Part 1:</span>
+https://stackblitz.com/edit/vitejs-vite-zwflwb?file=src/input.ts
+
 1. Try creating a new project with the `vanilla-ts` template (in browser: vite.new/vanilla-ts)
+
 <span style="color:orange">SVAR 1:</span>
 <span style="color:orange">Done.</span>
 
@@ -13,10 +16,6 @@ Check out [stackblitz](https://blog.stackblitz.com/posts/vite-new-templates/)
 
 
 3. Now create your own file with an input field and a button. When the button is clicked, it should alert a `Hello <inputname` to the user.
-- Hints:
-    - use `document.createElement('input');` and `document.createElement('button');` to create the elements.
-    - Send a div element `(container: HTMLDivElement)` to the function as a container for both the input and the button.
-    - use `container.appendChild(element)` to add the elements to the container.
 
 <span style="color:orange">SVAR 3:</span>
 
