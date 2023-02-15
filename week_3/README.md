@@ -2,13 +2,14 @@
 ## Part 1: Working in the browser
 Check out [stackblitz](https://blog.stackblitz.com/posts/vite-new-templates/)
 1. Try creating a new project with the `vanilla-ts` template (in browser: vite.new/vanilla-ts)
-
-#### *Done.*
+<span style="color:orange">SVAR 1:</span>
+<span style="color:orange">Done.</span>
 
 
 2. Take a look at the counter.ts and see how it works
 
-#### *Det er en tæller, der tæller op, hver gang man klikker på en knap.*
+<span style="color:orange">SVAR 2:</span>
+<span style="color:orange">Det er en tæller, der tæller op, hver gang man klikker på en knap.</span>
 
 
 3. Now create your own file with an input field and a button. When the button is clicked, it should alert a `Hello <inputname` to the user.
@@ -17,7 +18,7 @@ Check out [stackblitz](https://blog.stackblitz.com/posts/vite-new-templates/)
     - Send a div element `(container: HTMLDivElement)` to the function as a container for both the input and the button.
     - use `container.appendChild(element)` to add the elements to the container.
 
-
+<span style="color:orange">SVAR 3:</span>
 
 ![img_1.png](img_1.png)
 
