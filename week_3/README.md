@@ -3,12 +3,12 @@
 Check out [stackblitz](https://blog.stackblitz.com/posts/vite-new-templates/)
 1. Try creating a new project with the `vanilla-ts` template (in browser: vite.new/vanilla-ts)
 
-Done.
+#### *Done.*
 
 
 2. Take a look at the counter.ts and see how it works
 
-Det er en tæller, der tæller op, hver gang man klikker på en knap.
+#### *Det er en tæller, der tæller op, hver gang man klikker på en knap.*
 
 
 3. Now create your own file with an input field and a button. When the button is clicked, it should alert a `Hello <inputname` to the user.
@@ -16,6 +16,13 @@ Det er en tæller, der tæller op, hver gang man klikker på en knap.
     - use `document.createElement('input');` and `document.createElement('button');` to create the elements.
     - Send a div element `(container: HTMLDivElement)` to the function as a container for both the input and the button.
     - use `container.appendChild(element)` to add the elements to the container.
+
+
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
 
 ## Part 2: Making your own project
 1. Create a new typescript project with `vite init project-name -- --template vanilla-ts`
