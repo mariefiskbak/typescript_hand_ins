@@ -26,6 +26,10 @@ function UpdatePeople({people, setPeople}: {
             person.city = input.city
             //update the people list
             setPeople([...people])
+            alert("Person updated")
+        }
+        else {
+            alert("Person not found")
         }
         setInput(init)
     }
