@@ -21,7 +21,7 @@ function AddPeople({people, setPeople}: {
     const addPerson = () => {
         setPeople([
             ...people, {
-                id: people.length + 1,
+                id: Math.max(...people.map(p => p.id)) + 1,
                 name: input.name,
                 age: parseInt(input.age),
                 city: input.city
