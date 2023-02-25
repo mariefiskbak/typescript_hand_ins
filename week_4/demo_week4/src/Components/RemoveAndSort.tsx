@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {Person} from "./PeopleViewer";
 
-function RemoveLast({people, setPeople}: {
+function RemoveAndSort({people, setPeople}: {
     people: Person[],
     setPeople: React.Dispatch<React.SetStateAction<Person[]>>
 }) {
@@ -11,9 +11,16 @@ function RemoveLast({people, setPeople}: {
         setPeople([...people])
     }
 
+    const handleSort = () => {
+        setPeople([...people].sort((a, b) => a.age - b.age))
+    }
+
     return (
+        <div>
         <button onClick={handleRemoveLast}>Remove Last</button>
+        <button onClick={handleSort}>Sort List by Age</button>
+        </div>
     )
 }
 
-export default RemoveLast;
+export default RemoveAndSort

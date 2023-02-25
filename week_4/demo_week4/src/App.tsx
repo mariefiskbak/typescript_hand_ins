@@ -5,7 +5,7 @@ import PeopleViewer from "./Components/PeopleViewer";
 import InputName from "./Components/InputName";
 import ShowName from "./Components/ShowName";
 import AddPeople from "./Components/AddPeople";
-import RemoveLast from "./Components/RemoveLast";
+import RemoveAndSort from "./Components/RemoveAndSort";
 
 
 
@@ -28,7 +28,7 @@ function App() {
 
             <PeopleViewer people={people}/>
             <AddPeople people={people} setPeople={setPeople}/>
-            <RemoveLast people={people} setPeople={setPeople}/>
+            <RemoveAndSort people={people} setPeople={setPeople}/>
 
         </div>
     )
