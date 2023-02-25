@@ -6,6 +6,7 @@ import InputName from "./Components/InputName";
 import ShowName from "./Components/ShowName";
 import AddPeople from "./Components/AddPeople";
 import RemoveAndSort from "./Components/RemoveAndSort";
+import UpdatePeople from "./Components/UpdatePeople";
 
 
 
@@ -29,6 +30,8 @@ function App() {
             <PeopleViewer people={people}/>
             <AddPeople people={people} setPeople={setPeople}/>
             <RemoveAndSort people={people} setPeople={setPeople}/>
+
+            <UpdatePeople people={people} setPeople={setPeople}/>
 
         </div>
     )
